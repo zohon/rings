@@ -18,8 +18,7 @@ export const config: Config = {
     },
     {
       type: 'www',
-      dir: 'docs',
-      baseUrl: 'https://zohon.github.io/rings/',
+      dir: 'docs/',
       serviceWorker: null, // disable service workers
     },
   ],

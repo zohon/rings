@@ -2,20 +2,20 @@
   "name": "rings",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.js",
-  "types": "dist/types/index.d.ts",
-  "collection": "dist/collection/collection-manifest.json",
-  "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/rings/rings.esm.js",
+  "main": "docs/dist/index.cjs.js",
+  "module": "docs/dist/index.js",
+  "types": "docs/dist/types/index.d.ts",
+  "collection": "docs/dist/collection/collection-manifest.json",
+  "collection:main": "docs/dist/collection/index.js",
+  "unpkg": "docs/dist/rings/rings.esm.js",
   "exports": {
     ".": {
-      "import": "./dist/rings/rings.esm.js",
-      "require": "./dist/rings/rings.cjs.js"
+      "import": "./docs/dist/rings/rings.esm.js",
+      "require": "./docs/dist/rings/rings.cjs.js"
     },
     "./my-component": {
-      "import": "./dist/components/ring-component.js",
-      "types": "./dist/components/ring-component.d.ts"
+      "import": "./docs/dist/components/ring-component.js",
+      "types": "./docs/dist/components/ring-component.d.ts"
     },
     "./loader": {
       "import": "./loader/index.js",
@@ -28,7 +28,7 @@
     "url": "https://github.com/ionic-team/stencil-component-starter.git"
   },
   "files": [
-    "dist/",
+    "docs/dist/",
     "loader/"
   ],
   "scripts": {

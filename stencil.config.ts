@@ -19,7 +19,6 @@ export const config: Config = {
     {
       type: 'www',
       dir: 'docs',
-      baseUrl: '/rings/',
       serviceWorker: null, // disable service workers
     },
   ],

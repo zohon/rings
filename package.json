@@ -18,9 +18,9 @@
       "types": "./docs/dist/components/ring-component.d.ts"
     },
     "./loader": {
-      "import": "./loader/index.js",
-      "require": "./loader/index.cjs",
-      "types": "./loader/index.d.ts"
+      "import": "./docs/loader/index.js",
+      "require": "./docs/loader/index.cjs",
+      "types": "./docs/loader/index.d.ts"
     }
   },
   "repository": {
@@ -29,7 +29,7 @@
   },
   "files": [
     "docs/dist/",
-    "loader/"
+    "docs/loader/"
   ],
   "scripts": {
     "build": "stencil build",

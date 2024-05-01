@@ -6,7 +6,6 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'dist',
-      dir: 'docs/dist',
       esmLoaderPath: '../loader',
     },
     {

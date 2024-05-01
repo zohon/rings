@@ -1,0 +1,2 @@
+import{p as r,b as a}from"./p-51b35e0b.js";export{s as setNonce}from"./p-51b35e0b.js";import{g as e}from"./p-e1255160.js";var o=()=>{const a=import.meta.url;const e={};if(a!==""){e.resourcesUrl=new URL(".",a).href}return r(e)};o().then((async r=>{await e();return a([["p-601123f2",[[1,"ring-component",{draggingItem:[32],gameBoard:[32],playItem:[32],turn:[32]},null,{gameBoard:["checkBoard"]}]]]],r)}));
+//# sourceMappingURL=rings.esm.js.map
